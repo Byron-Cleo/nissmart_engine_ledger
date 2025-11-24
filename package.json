@@ -1,0 +1,20 @@
+{
+  "name": "nissmart-interview",
+  "version": "1.0.0",
+  "description": "interview project assignment",
+  "main": "backend/server.js",
+  "scripts": {
+    "server": "nodemon backend/server.js"
+  },
+  "author": "byron_ochara",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.17.1",
+    "mysql2": "^3.15.3",
+    "nodemon": "^3.1.11",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3",
+    "simple-node-logger": "^21.8.12"
+  }
+}

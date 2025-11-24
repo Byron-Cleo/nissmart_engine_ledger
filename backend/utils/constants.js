@@ -1,0 +1,14 @@
+exports.WALLET_BALANCE = 0;
+
+exports.TRANSACTONTYPE = {
+  TRANSACTION_DEPOSIT: "deposit",
+  TRANSACTION_WITHDRAW: "withdraw",
+  TRANSACTION_TRANSFER_CREDIT: "transfer_credit",
+  TRANSACTION_TRANSFER_DEBIT: "transfer_debit",
+};
+
+exports.TRANSACTONSTATUS = {
+  TRANSACTION_PENDING: "pending",
+  TRANSACTION_COMPLETED: "completed",
+  TRANSACTION_FAILED: "failed",
+};
