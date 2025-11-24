@@ -1,4 +1,4 @@
- nissmart_transacton_engine
+ ####nissmart_transacton_engine
 
 #How to run backend(Shown on the first 3mins in the video walk through)
 create database called nissmart_db, preferabley with phpMyadmin to enable smooth creation fo users with active set to 1 as true
@@ -10,6 +10,8 @@ then change back to root directory and run the sever npm run server
 on the root directory, change to client directory, then nissmart directory
 run npm run dev to run start react with vite front-end
 
-#Any required environment variables .env inluded for the project
+#Any required environment variables 
+.env inluded for the project i.e config.env
 
-#Setup instructions Please refer the above instructions
+#Setup instructions 
+Please refer the above instructions
