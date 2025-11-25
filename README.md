@@ -4,7 +4,7 @@
 
 1. create database called `nissmart_db`, preferabley with phpMyadmin to enable smooth creation fo users with active set to 1 as true
 2. on the root directory, install the project packages with npm install using node version 20 or higher
-3 .change directory to backend to create databse tables by running `npx sequelize-cli db:migrate` to run project migrations with sequelize
+3. change directory to backend to create databse tables by running `npx sequelize-cli db:migrate` to run project migrations with sequelize
 4. then change back to root directory and run the sever npm run server
 
 ## How to run frontend
