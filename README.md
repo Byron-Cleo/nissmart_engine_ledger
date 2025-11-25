@@ -9,12 +9,12 @@
 
 ## How to run frontend
 
-on the root directory, change to client directory, then nissmart directory
-run npm run dev to run start react with vite front-end
+1. on the root directory, change to client directory, then nissmart directory
+2. run `npm run dev` to start react with vite front-end
 
 ## Any required environment variables
 
-.env inluded for the project i.e config.env
+1. . `.env` inluded for the project called `config.env`
 
 ## Setup instructions
-Please refer the above instructions
+1. Please refer the above instructions
