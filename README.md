@@ -1,4 +1,4 @@
- # nissmart_transacton_engine
+# Nissmart Transaction Engine
 
 #How to run backend(Shown on the first 3mins in the video walk through)
 
@@ -12,9 +12,9 @@ then change back to root directory and run the sever npm run server
 on the root directory, change to client directory, then nissmart directory
 run npm run dev to run start react with vite front-end
 
-#Any required environment variables 
+#Any required environment variables
 
 .env inluded for the project i.e config.env
 
-#Setup instructions 
+#Setup instructions
 Please refer the above instructions
