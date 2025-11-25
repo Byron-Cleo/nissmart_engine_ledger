@@ -11,7 +11,7 @@
 
 1. on the root directory, change to client directory, then nissmart directory
 2. install packages with `npm install` with node version 20 or higher
-3. run `npm run dev` to start react with vite front-end
+3. run `npm run dev` to start react with vite for the front-end
 
 ## Any required environment variables
 
