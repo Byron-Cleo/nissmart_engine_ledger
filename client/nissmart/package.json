@@ -21,7 +21,9 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.3.0",
     "styled-components": "^6.1.19",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite-plugin-eslint": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
