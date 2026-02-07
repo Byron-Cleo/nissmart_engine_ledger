@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    {
+      "source": "/backend/(.*)",
+      "destination": "/backend/server.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/client/$1"
+    }
+  ],
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}
