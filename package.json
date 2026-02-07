@@ -5,7 +5,7 @@
   "main": "backend/server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
-    "build": "npm run build --prefix client/nissmart",
+    "build": "npm install && npm run build --prefix client/nissmart",
     "start": "node backend/server.js"
   },
   "author": "byron_ochara",
