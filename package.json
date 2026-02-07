@@ -4,7 +4,9 @@
   "description": "interview project assignment",
   "main": "backend/server.js",
   "scripts": {
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "build": "vite build --prefix client/nissmart",
+    "start": "node backend/server.js"
   },
   "author": "byron_ochara",
   "license": "ISC",
