@@ -10,7 +10,7 @@
     },
     {
       "source": "/h/(.*)",
-      "dest": "/client/nissmart/dist/index.js"
+      "destination": "/client/nissmart/dist/index.js"
     }
   ],
   "build": {
