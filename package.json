@@ -2,10 +2,10 @@
   "name": "nissmart-interview",
   "version": "1.0.0",
   "description": "interview project assignment",
-  "main": "backend/server.js",
+  "main": "backend/index.js",
   "scripts": {
-    "server": "nodemon backend/server.js",
-    "start": "node backend/server.js"
+    "server": "nodemon backend/index.js",
+    "start": "node backend/index.js"
   },
   "author": "byron_ochara",
   "license": "ISC",
