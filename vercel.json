@@ -9,7 +9,7 @@
       "destination": "/backend/index.js"
     },
     {
-      "ssource": "/h/(.*)",
+      "source": "/h/(.*)",
       "dest": "/client/nissmart/dist/index.js"
     }
   ],
