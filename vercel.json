@@ -7,11 +7,9 @@
     {
       "source": "/(.*)",
       "destination": "/backend/index.js"
-    }
-  ],
-  "routes": [
+    },
     {
-      "src": "/(.*)",
+      "src": "/h/(.*)",
       "dest": "/client/nissmart/dist/index.js"
     }
   ],
