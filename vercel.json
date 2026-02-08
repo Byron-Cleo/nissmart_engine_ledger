@@ -7,7 +7,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/backend/index.js"
+      "destination": "/bacjkend/index.js"
     },
     {
       "source": "/h/(.*)",
