@@ -7,7 +7,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/bacjkend/index.js"
+      "destination": "/client/nissmart/dist/index.js"
     },
     {
       "source": "/h/(.*)",

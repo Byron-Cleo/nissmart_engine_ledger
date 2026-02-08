@@ -2,9 +2,10 @@
   "name": "nissmart-interview",
   "version": "1.0.0",
   "description": "interview project assignment",
-  "main": "backend/index.js",
+  "main": "backend/server.js",
   "scripts": {
     "server": "nodemon backend/index.js",
+    "build": "npm install --legacy-peer-deps --prefix client/nissmart && npm run build --prefix client/nissmart",
     "start": "node backend/index.js"
   },
   "author": "byron_ochara",
