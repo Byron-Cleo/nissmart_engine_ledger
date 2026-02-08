@@ -6,7 +6,13 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/client/nissmart/$1"
+      "destination": "/backend/index.js"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/client/nissmart/dist/index.js"
     }
   ],
   "build": {
