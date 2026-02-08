@@ -1,15 +1,22 @@
 {
   "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "./backend/index.js",
-      "use": "@vercel/node"
+      "source": "/api/(.*)",
+      "destination": "/backend/index.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/backend/index.js"
+    },
+    {
+      "source": "/h/(.*)",
+      "destination": "/client/nissmart/dist/index.js"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "./backend/index.js"
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
     }
-  ]
+  }
 }
