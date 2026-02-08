@@ -14,5 +14,4 @@
       "NODE_ENV": "production"
     }
   },
-  "outputDirectory": "client/nissmart/dist"
 }
