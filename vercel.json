@@ -8,10 +8,6 @@
     {
       "source": "/(.*)",
       "destination": "/client/nissmart/dist/index.js"
-    },
-    {
-      "source": "/h/(.*)",
-      "destination": "/client/nissmart/dist/index.js"
     }
   ],
   "build": {
