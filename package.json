@@ -5,7 +5,6 @@
   "main": "backend/server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
-    "build": "npm install --legacy-peer-deps --prefix client/nissmart && npm run build --prefix client/nissmart",
     "start": "node backend/server.js"
   },
   "author": "byron_ochara",
