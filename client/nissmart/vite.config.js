@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://nissmart-engine-ledger.vercel.app",
+        target: "http://localhost:4005",
         changeOrigin: true,
       },
     },
