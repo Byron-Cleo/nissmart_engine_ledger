@@ -14,6 +14,6 @@ export default defineConfig({
   },
 
   plugins: [react(), eslint()],
-    base: '/nissmart/dist',
+    base: '/client/nissmart',
 
 });
