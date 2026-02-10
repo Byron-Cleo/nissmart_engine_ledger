@@ -7,7 +7,7 @@
     },
     {
       "source": "/(.*)",
-      "destination": "/client/nissmart/dist/index.js"
+      "destination": "/client/nissmart/index.js"
     }
   ],
   "build": {
