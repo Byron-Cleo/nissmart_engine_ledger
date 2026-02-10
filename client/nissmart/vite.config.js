@@ -14,4 +14,6 @@ export default defineConfig({
   },
 
   plugins: [react(), eslint()],
+    base: '/',
+
 });
