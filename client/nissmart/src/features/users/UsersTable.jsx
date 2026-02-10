@@ -19,7 +19,7 @@ function UserTable() {
   }, [dispatch]);
 
   if (loading) return <Spinner />;
-  if (!users.length) return <Empty resourceName="users" />;
+  if (!users) return <Empty resourceName="users" />;
 
   return (
     <Menus>
