@@ -8,6 +8,9 @@ const { where } = require("sequelize");
 exports.createUser = catchAsync(async (req, res, next) => {
   //1. creating new user
   const newUser = new User(req.body);
+  log.info(
+      `"Transaction": "User", "message": "Adding New User"`
+    );
   const result = await newUser.save();
 
   //2.creating user wallet and associating with the user
