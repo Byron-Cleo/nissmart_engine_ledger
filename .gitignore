@@ -1,6 +1,8 @@
+config.env
+package-lock.json  
 /node_modules
 
 SEQUELIZEnotes.txt
 .vercel
-config.env
-package-lock.json   
+README.md
+vercel.json
