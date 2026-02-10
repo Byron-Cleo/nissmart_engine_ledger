@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require('path');
+const cors = require('cors');
 const userRouter = require('./routes/userRoutes');
 const walletRouter = require('./routes/walletRoutes.js');
 const depositRouter = require('./routes/depositRoutes');
@@ -12,6 +13,18 @@ const analyticsRouter = require('./routes/analyticsRoutes.js');
 const app = express();
 
 app.use(express.json({ limit: '10kb' }));
+
+const allowedOrigins = ['https://nissmart-engine-ledger.vercel.app', 'http://localhost:4005'];
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  }
+}));
+
 
 
 //Application API endpoints
